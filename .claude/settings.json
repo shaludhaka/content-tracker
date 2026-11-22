@@ -3,10 +3,9 @@
   "includeCoAuthoredBy": false,
   "permissions": {
     "allow": [
-      "Read(./src/**)",
-      "Read(./lib/**)",
-      "Read(./package.json)",
-      "Bash(curl -sf http://localhost:8000/*)"
+      "Read(./frontend/**)",
+      "Bash(curl -sf http://localhost:8000/*)",
+      "Bash(uv run:*)"
     ],
     "deny": [
       "Read(./.env)",
